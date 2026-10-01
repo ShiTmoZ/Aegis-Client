@@ -23,12 +23,12 @@ Engineered from the ground up for high-durability censorship circumvention acros
 
 ## ⚡ Highlights
 
-- **Single Executable (`flow.exe`)**: Everything needed is embedded in one portable binary (~41 MB). No runtime installation required.
+- **Single Executable (`flow.exe`)**: Everything needed is embedded in one portable binary (~40.7 MB). No runtime installation required.
+- **Universal Connection Input**: Directly accepts raw `vless://` URIs, standard subscription URLs, or 32-character service keys.
 - **Embedded Production Core**: Integrates official **sing-box v1.11.4** and signed **Wintun 0.14.1** virtual network driver.
-- **Neural Multi-Armed Bandit Evasion**: Thompson Sampling agent autonomously navigates DPI filter thresholds in real-time.
 - **Carrier-Split Auto-Routing**: Automatically identifies your active ISP (MCI, Irancell, Mokhaberat, Rightel) and dynamically routes through carrier-optimized endpoints.
-- **Persistent Real Delay RTT**: Native v2rayN-style persistent HTTP latency tracking (~70–120 ms) directly through the active tunnel.
-- **RFC-Compliant TLS Record Fragmentation**: Bypasses Deep Packet Inspection (DPI) SNI filtering cleanly using standard TLS record slicing.
+- **Persistent Real Delay RTT**: Native v2rayN-style persistent HTTP latency tracking directly through the active tunnel.
+- **Protected TLS Handshake**: Fragment is locked to OFF by default to ensure maximum Cloudflare CDN compatibility and eliminate DPI heuristic classification.
 - **Live Diagnostics Console**: Integrated real-time log viewer directly accessible from the dashboard header.
 - **Zero-Footprint OpSec**: Automatic Windows registry proxy cleanup upon exit. Zero leftover dead proxy configurations.
 
